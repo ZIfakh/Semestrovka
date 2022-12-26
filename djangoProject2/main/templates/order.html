@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+    <table>
+    <tbody>
+        {% for i in user %}
+            <tr>
+                <td>{{ i.title }}</td>
+                <td>{{ i.user }}</td>
+                <td>{{ i.magazine }}</td> 
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+{% endblock %}

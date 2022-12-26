@@ -1,0 +1,60 @@
+.rounded-img 
+{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0.9, 0, 0, 1);
+    padding: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.beer-item
+{
+    display: flex;
+    justify-content: center;
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+	background: url('../images/sign.png') no-repeat 10px 5px;
+	width: 70px;
+	height: 60px;
+}
+
+.beer-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.beer-selection
+{
+    width: fit-content;
+    font-family: 'Roboto Slab', serif;
+}
+
+.description
+{
+    color: black;
+    height: 200px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 50;
+    z-index: 2;
+    width: 100%;
+    color: aqua;
+}
+
+.body
+{
+    width: 100vw;
+    height: 100vh;
+}
